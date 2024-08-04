@@ -1,0 +1,27 @@
+// button
+.fc {
+    .fc-button-group {
+        .fc-button-primary {
+            background-color: $primary;
+        }
+
+        .fc-button-primary:not(:disabled).fc-button-active {
+            background-color: $button-hover;
+        }
+
+        .fc-button:focus {
+            box-shadow: none !important;
+        }
+
+        button:hover {
+            opacity: $opacity;
+            background-color: $button-hover;
+        }
+    }
+}
+
+// calendar
+#calendar {
+    max-width: $max-width;
+    margin: 0 auto;
+}
